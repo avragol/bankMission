@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 70vw;
+    margin: auto;
+    background-color: #ccc;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+section {
+    padding: 20px 20px 20px 50px;
+    background-color: #bbb;
+}
+
+h2 {
+    color: #0066CC;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.account,
+.transaction {
+    background-color: #aaa;
+    padding: 5px;
+    margin-bottom: 3px;
+    width: max-content;
+    flex-basis: auto;
+    border: #0066CC 2px solid;
+    transition: scale 200ms ease-in-out;
+}
+
+.account:hover {
+    scale: 105%;
+    cursor: pointer;
+}
+
+.account.active {
+    background-color: #99f;
+}
