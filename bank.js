@@ -27,16 +27,16 @@ const templates = {
     account: `
             <div class="account">
                 <div><label>AccountID: </label><span>{ID}</span></div>
-                <div><label>OwnerID :</label><span>{OwnerID}</span></div>
-                <div><label>Owner Name :</label><span>{OwnerName}</span></div>
+                <div><label>OwnerID: </label><span>{OwnerID}</span></div>
+                <div><label>Owner Name: </label><span>{OwnerName}</span></div>
                 <div><label>Balance: </label><span> {Balance}</span></div>
             </div>
         `,
     transaction: `
             <div class="transaction">
                 <div><label>Transaction: </label><span>{ID}</span></div>
-                <div><label>Type :</label><span>{Type}</span></div>
-                <div><label>Amount :</label><span>{Amount}</span></div>
+                <div><label>Type: </label><span>{Type}</span></div>
+                <div><label>Amount: </label><span>{Amount}</span></div>
             </div>
         `,
 };

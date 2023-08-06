@@ -19,10 +19,23 @@ h2 {
     color: #0066CC;
 }
 
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.accounts-section {
+    width: 50vw;
+}
+
+.deatels-section {
+    width: 25vw;
+}
 
 .flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -31,7 +44,7 @@ h2 {
     background-color: #aaa;
     padding: 5px;
     margin-bottom: 3px;
-    width: max-content;
+    max-width: max-content;
     flex-basis: auto;
     border: #0066CC 2px solid;
     transition: scale 200ms ease-in-out;
